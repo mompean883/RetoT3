@@ -1,0 +1,189 @@
+/* Estilos header */
+body {
+    margin: 0;
+    
+}
+
+.logoprincipal{
+    background-color:black;
+    background: linear-gradient(black,91%, orangered);
+    color: white;
+    width: 100%; 
+    text-align: center;
+}
+.logoprincipal ul {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+
+.logoprincipal ul li {
+    font-size: 3.5vh;
+    font-family: Creepster;
+    width: 10%;
+    cursor: pointer;
+}
+.logoprincipal ul a:hover{
+    opacity: 0.5;
+    color: white;
+}
+.categoria{
+  background-color:orangered ;
+  color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.imglogo img {
+    cursor: pointer;
+    margin-top: 1em;
+    width: 5%;
+}
+
+.home{
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+
+.carta{
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.pedidos{
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.contacto{
+    color: white;
+    font-weight: bold;
+    text-decoration: overline;
+}
+/* Estilos main home */
+#fondohome{
+    background-image: url(ImagHome/fondohome3.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.Lema {
+    
+    color: white;
+    font-size: 5em;
+    font-family: creepster;
+    text-align: center;
+    margin-top: 9%;
+    text-shadow: 6px 6px 9px black;
+    background-color: aqua;
+}
+
+/* Estilos para Contacto */
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5em;
+ 
+
+}
+#princ {
+
+    margin: auto;
+    width: 60%;
+    padding: 1.1em;
+}
+
+#princ * {
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#nombre {
+    display: flex;
+    padding: 1%;
+
+}
+
+#apellidos {
+    display: flex;
+    padding: 1%;
+}
+
+#email {
+    display: flex;
+    padding: 1%;
+}
+
+#telefono {
+    display: flex;
+
+}
+
+#escribenos {
+    display: flex;
+
+}
+
+
+.form {
+    height: 2em;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px orangered;
+    z-index: 1;
+    background: rgb(255, 255, 255); 
+    padding: 10px; 
+    border-radius: 15px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; }
+  
